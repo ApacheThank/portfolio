@@ -37,7 +37,7 @@
                         <textarea name="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Dites-nous comment nous pouvons vous aider..."></textarea>
                     </div>
                     <!-- Google Recaptcha -->
-                    <div class="g-recaptcha mt-4" data-sitekey="6LcoeA0oAAAAAJkcOoR5yJ3Rn4QSI0v9sEHbQ-wr"></div>
+                    <div class="g-recaptcha mt-4" data-sitekey="{{ config('services.recaptcha.key') }}"></div>
                     <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white bg-red-50 dark:bg-red-600/30 rounded-lg hover:bg-red-500/50">Envoyer</button>
                 </form>
             </div>
