@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div.show-work > h3 {
+    @apply mb-2 text-xl lg:text-xl tracking-tight font-extrabold;
+}
+
+div.show-work > ul {
+    
+    @apply space-y-1 text-gray-400 list-disc list-inside;
+}
+
+
+div.show-work > p {
+    @apply mb-2 text-lg text-gray-200;
+}
+
+div.show-work > pre {
+    @apply mx-auto max-w-screen-lg bg-gray-700/40 p-4 rounded-lg overflow-x-auto;
+}
